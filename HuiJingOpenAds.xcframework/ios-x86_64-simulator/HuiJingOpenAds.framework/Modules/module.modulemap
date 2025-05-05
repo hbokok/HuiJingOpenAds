@@ -1,0 +1,6 @@
+framework module HuiJingOpenAds {
+  umbrella header "HuiJingOpenAds.h"
+  export *
+
+  module * { export * }
+}
