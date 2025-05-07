@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HuiJingOpenAds'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'ads sdk'
 
 # This description is used to generate tags and improve search results.
@@ -45,8 +45,5 @@ DESC
       'OTHER_LDFLAGS' => '-framework HuiJingOpenAds $(inherited)'
   }
   s.user_target_xcconfig = { 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0' }
-  s.xcconfig = {
-  'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/HuiJingOpenAds/**"'
-}
 end
 
